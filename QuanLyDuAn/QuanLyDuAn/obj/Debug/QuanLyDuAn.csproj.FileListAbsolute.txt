@@ -1,0 +1,10 @@
+D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\bin\Debug\QuanLyDuAn.exe.config
+D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\bin\Debug\QuanLyDuAn.exe
+D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\bin\Debug\QuanLyDuAn.pdb
+D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\obj\Debug\QuanLyDuAn.csproj.AssemblyReference.cache
+D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\obj\Debug\QuanLyDuAn.Properties.Resources.resources
+D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\obj\Debug\QuanLyDuAn.csproj.GenerateResource.cache
+D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\obj\Debug\QuanLyDuAn.csproj.CoreCompileInputs.cache
+D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\obj\Debug\QuanLyDuAn.exe
+D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\obj\Debug\QuanLyDuAn.pdb
+D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\obj\Debug\QuanLyDuAn.Form1.resources

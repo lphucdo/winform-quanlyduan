@@ -16,5 +16,15 @@ namespace QuanLyDuAn
         {
             InitializeComponent();
         }
+
+        private void đToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void đèNghịThanhToánToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
