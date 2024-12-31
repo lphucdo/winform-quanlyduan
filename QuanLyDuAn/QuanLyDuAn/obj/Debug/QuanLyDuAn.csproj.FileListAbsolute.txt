@@ -71,3 +71,12 @@ D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn
 D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\obj\Debug\vi\QuanLyDuAn.resources.dll
 D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\obj\Debug\QuanLyDuAn.NhanVienForm.resources
 D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\obj\Debug\QuanLyDuAn.QuyForm.resources
+D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\obj\Debug\QuanLyDuAn.NhaCungCapForm.resources
+D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\obj\Debug\QuanLyDuAn.DuAnForm.resources
+D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\obj\Debug\QuanLyDuAn.HangMucForm.resources
+D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\obj\Debug\QuanLyDuAn.BaoCao.resources
+D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\obj\Debug\QuanLyDuAn.PhieuChiForm.resources
+D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\obj\Debug\QuanLyDuAn.BaoCaoChiTietDuAn.resources
+D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\obj\Debug\QuanLyDuAn.BaoCaoChiTietMay.resources
+D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\obj\Debug\QuanLyDuAn.BaoCaoChiTietVatTu.resources
+D:\Code\WorkSpace\visualStudio2022Space\winform-quanlyduan\QuanLyDuAn\QuanLyDuAn\obj\Debug\QuanLyDuAn.NguoiDungForm.resources

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnQLUS = new MaterialSkin.Controls.MaterialButton();
             this.materialCheckbox1 = new MaterialSkin.Controls.MaterialCheckbox();
             this.btnBaoCao = new MaterialSkin.Controls.MaterialButton();
             this.btnQuy = new MaterialSkin.Controls.MaterialButton();
@@ -47,6 +48,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.panel1.Controls.Add(this.btnQLUS);
             this.panel1.Controls.Add(this.materialCheckbox1);
             this.panel1.Controls.Add(this.btnBaoCao);
             this.panel1.Controls.Add(this.btnQuy);
@@ -59,8 +61,30 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 72);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(165, 557);
+            this.panel1.Size = new System.Drawing.Size(165, 702);
             this.panel1.TabIndex = 0;
+            // 
+            // btnQLUS
+            // 
+            this.btnQLUS.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnQLUS.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnQLUS.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnQLUS.Depth = 0;
+            this.btnQLUS.HighEmphasis = true;
+            this.btnQLUS.Icon = global::QuanLyDuAn.Properties.Resources.home_lock_custom;
+            this.btnQLUS.Image = global::QuanLyDuAn.Properties.Resources.home_lock_custom;
+            this.btnQLUS.Location = new System.Drawing.Point(0, 461);
+            this.btnQLUS.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnQLUS.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnQLUS.Name = "btnQLUS";
+            this.btnQLUS.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnQLUS.Size = new System.Drawing.Size(150, 36);
+            this.btnQLUS.TabIndex = 17;
+            this.btnQLUS.Text = "Quản Lý User";
+            this.btnQLUS.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnQLUS.UseAccentColor = false;
+            this.btnQLUS.UseVisualStyleBackColor = true;
+            this.btnQLUS.Click += new System.EventHandler(this.btnQLUS_Click);
             // 
             // materialCheckbox1
             // 
@@ -102,6 +126,7 @@
             this.btnBaoCao.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.btnBaoCao.UseAccentColor = false;
             this.btnBaoCao.UseVisualStyleBackColor = true;
+            this.btnBaoCao.Click += new System.EventHandler(this.btnBaoCao_Click);
             // 
             // btnQuy
             // 
@@ -137,12 +162,13 @@
             this.btnPhieuThuChi.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnPhieuThuChi.Name = "btnPhieuThuChi";
             this.btnPhieuThuChi.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.btnPhieuThuChi.Size = new System.Drawing.Size(152, 36);
+            this.btnPhieuThuChi.Size = new System.Drawing.Size(119, 36);
             this.btnPhieuThuChi.TabIndex = 13;
-            this.btnPhieuThuChi.Text = "Phiếu Thu Chi";
+            this.btnPhieuThuChi.Text = "Phiếu Chi";
             this.btnPhieuThuChi.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.btnPhieuThuChi.UseAccentColor = false;
             this.btnPhieuThuChi.UseVisualStyleBackColor = true;
+            this.btnPhieuThuChi.Click += new System.EventHandler(this.btnPhieuThuChi_Click);
             // 
             // btnNhaCungCap
             // 
@@ -163,6 +189,7 @@
             this.btnNhaCungCap.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.btnNhaCungCap.UseAccentColor = false;
             this.btnNhaCungCap.UseVisualStyleBackColor = true;
+            this.btnNhaCungCap.Click += new System.EventHandler(this.btnNhaCungCap_Click);
             // 
             // btnHangMuc
             // 
@@ -189,6 +216,7 @@
             this.btnHangMuc.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.btnHangMuc.UseAccentColor = false;
             this.btnHangMuc.UseVisualStyleBackColor = false;
+            this.btnHangMuc.Click += new System.EventHandler(this.btnHangMuc_Click);
             // 
             // btnDuAn
             // 
@@ -215,6 +243,7 @@
             this.btnDuAn.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.btnDuAn.UseAccentColor = false;
             this.btnDuAn.UseVisualStyleBackColor = false;
+            this.btnDuAn.Click += new System.EventHandler(this.btnDuAn_Click);
             // 
             // btnHome
             // 
@@ -276,7 +305,7 @@
             this.viewPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.viewPanel.Location = new System.Drawing.Point(165, 72);
             this.viewPanel.Name = "viewPanel";
-            this.viewPanel.Size = new System.Drawing.Size(1027, 557);
+            this.viewPanel.Size = new System.Drawing.Size(1071, 702);
             this.viewPanel.TabIndex = 1;
             // 
             // lblThongBao
@@ -284,7 +313,7 @@
             this.lblThongBao.AutoSize = true;
             this.lblThongBao.Depth = 0;
             this.lblThongBao.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.lblThongBao.Location = new System.Drawing.Point(6, 10);
+            this.lblThongBao.Location = new System.Drawing.Point(17, 10);
             this.lblThongBao.MouseState = MaterialSkin.MouseState.HOVER;
             this.lblThongBao.Name = "lblThongBao";
             this.lblThongBao.Size = new System.Drawing.Size(100, 19);
@@ -296,7 +325,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1192, 629);
+            this.ClientSize = new System.Drawing.Size(1236, 774);
             this.Controls.Add(this.viewPanel);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
@@ -328,5 +357,6 @@
         private MaterialSkin.Controls.MaterialCheckbox materialCheckbox1;
         private System.Windows.Forms.Panel viewPanel;
         private MaterialSkin.Controls.MaterialLabel lblThongBao;
+        private MaterialSkin.Controls.MaterialButton btnQLUS;
     }
 }

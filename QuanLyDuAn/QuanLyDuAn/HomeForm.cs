@@ -4,11 +4,13 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.RightsManagement;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MaterialSkin;
 using MaterialSkin.Controls;
+using QuanLyDuAn.Entity;
 
 namespace QuanLyDuAn
 {
@@ -20,6 +22,20 @@ namespace QuanLyDuAn
         public HomeForm()
         {
             InitializeComponent();
+
+            if (!string.IsNullOrEmpty(NguoiDung.NguoiDungInstant.TenNguoiDung))
+            {
+                lblThongBao.Text += " " + NguoiDung.NguoiDungInstant.TenNguoiDung;
+                if(NguoiDung.NguoiDungInstant.Quyen != "ADMIN")
+                {
+                    btnQLUS.Visible = false;
+                }
+                else
+                {
+                    btnQLUS.Visible = true;
+                }
+            }
+
             timer = new Timer();
             timer.Interval = 1;
             timer.Tick += Timer_Tick;
@@ -89,6 +105,68 @@ namespace QuanLyDuAn
             QuyForm quyForm = new QuyForm();
             quyForm.Dock = DockStyle.Fill;
             viewPanel.Controls.Add(quyForm);
+            viewPanel.Tag = quyForm;
+            quyForm.Show();
+        }
+
+        private void btnNhaCungCap_Click(object sender, EventArgs e)
+        {
+            viewPanel.Controls.Clear();
+            NhaCungCapForm nhaCungCapForm = new NhaCungCapForm();
+            nhaCungCapForm.Dock = DockStyle.Fill;
+            viewPanel.Controls.Add(nhaCungCapForm);
+            viewPanel.Tag = nhaCungCapForm;
+            nhaCungCapForm.Show();
+        }
+
+        private void btnDuAn_Click(object sender, EventArgs e)
+        {
+            viewPanel.Controls.Clear();
+            DuAnForm duAnForm = new DuAnForm();
+            duAnForm.Dock = DockStyle.Fill;
+            viewPanel.Controls.Add(duAnForm);
+            viewPanel.Tag = duAnForm;
+            duAnForm.Show();
+        }
+
+        private void btnHangMuc_Click(object sender, EventArgs e)
+        {
+            viewPanel.Controls.Clear();
+            HangMucForm hangMucForm = new HangMucForm();
+            hangMucForm.Dock = DockStyle.Fill;
+            viewPanel.Controls.Add(hangMucForm);
+            viewPanel.Tag = hangMucForm;
+            hangMucForm.Show();
+        }
+
+        private void btnPhieuThuChi_Click(object sender, EventArgs e)
+        {
+            viewPanel.Controls.Clear();
+            PhieuChiForm phieuChiForm = new PhieuChiForm();
+            phieuChiForm.Dock = DockStyle.Fill;
+            viewPanel.Controls.Add(phieuChiForm);
+            viewPanel.Tag = phieuChiForm;
+            phieuChiForm.Show();
+        }
+
+        private void btnBaoCao_Click(object sender, EventArgs e)
+        {
+            viewPanel.Controls.Clear();
+            BaoCao phieuChiForm = new BaoCao();
+            phieuChiForm.Dock = DockStyle.Fill;
+            viewPanel.Controls.Add(phieuChiForm);
+            viewPanel.Tag = phieuChiForm;
+            phieuChiForm.Show();
+        }
+
+        private void btnQLUS_Click(object sender, EventArgs e)
+        {
+            viewPanel.Controls.Clear();
+            NguoiDungForm phieuChiForm = new NguoiDungForm();
+            phieuChiForm.Dock = DockStyle.Fill;
+            viewPanel.Controls.Add(phieuChiForm);
+            viewPanel.Tag = phieuChiForm;
+            phieuChiForm.Show();
         }
     }
 }

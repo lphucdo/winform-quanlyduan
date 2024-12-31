@@ -133,6 +133,16 @@ namespace QuanLyDuAn.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap home_lock_custom {
+            get {
+                object obj = ResourceManager.GetObject("home-lock-custom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap receipt_text_custom {
             get {
                 object obj = ResourceManager.GetObject("receipt-text-custom", resourceCulture);

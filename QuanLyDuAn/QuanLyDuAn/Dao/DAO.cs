@@ -14,14 +14,6 @@ namespace QuanLyDuAn.Dao
         public static SqlConnection GetConnection()
         {
             SqlConnection conn = new SqlConnection(connstr);
-            try
-            {
-                conn.Open();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Lỗi " + ex.Message);
-            }
             return conn;
         }
     }

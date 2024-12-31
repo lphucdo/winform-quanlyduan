@@ -85,6 +85,7 @@ namespace QuanLyDuAn
                 if (user != null) 
                 {
                     string sql = "SELECT * FROM tbl_nguoidung WHERE TaiKhoan = @TaiKhoan AND MatKhau = @MatKhau";
+                    conn.Open();
                     cmd = new SqlCommand(sql, conn);
                     cmd.Parameters.AddWithValue("@TaiKhoan", txtUsername.Text);
                     cmd.Parameters.AddWithValue("@MatKhau", txtPassword.Text);
@@ -103,9 +104,15 @@ namespace QuanLyDuAn
 
                         NguoiDung.NguoiDungInstant = nguoiDung;
 
+                        // Ẩn form hiện tại (form đăng nhập)
+                        this.Hide();
                         MessageBox.Show("Xin Chào: " + nguoiDung.TenNguoiDung, "Đăng Nhập Thành Công!");
-
-                        MessageBox.Show("USERINSSTANT: " + NguoiDung.NguoiDungInstant.TenNguoiDung);
+                        HomeForm homeForm = new HomeForm();
+                        homeForm.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("SAI THÔNG TIN NGƯỜI DÙNG!!!");
                     }
                 }
                 else
@@ -118,12 +125,17 @@ namespace QuanLyDuAn
             {
                 MessageBox.Show("Lỗi: " + ex.Message);
             }
+            finally
+            {
+                conn.Close();
+            }
         }
 
         private void btnForgot_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             //Đây là trạng thái quên mật khẩu
             // bỏ qua/ mất thời gian
+            MessageBox.Show("HẸN GẶP LẠI VÀO MÙA XUÂN NĂM SAU!!!");
         }
     }
 }

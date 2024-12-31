@@ -121,11 +121,14 @@
   <data name="receipt-text-custom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\receipt-text-custom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="home-custom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\home-custom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="folderPlust" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\folderPlust.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="store-marker-custom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\store-marker-custom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cash-multiple-custom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\cash-multiple-custom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="finance-custom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\finance-custom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,13 +139,13 @@
   <data name="account-multiple-custom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\account-multiple-custom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="store-marker-custom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\store-marker-custom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="home-custom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\home-custom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="folder-multiple-plus-custom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\folder-multiple-plus-custom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cash-multiple-custom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\cash-multiple-custom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="home-lock-custom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\home-lock-custom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
